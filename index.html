@@ -6,6 +6,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <meta charset="UTF-8">
+<meta name="keywords" content="Obliqua, Sportswear, ObliquaMX">
+<meta name="description" content="Obliqua product showcase website landing page">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Landing Page</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +15,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Staatliches&display=swap" rel="stylesheet">
 
 <style>
-body {
-background-color: #ffffff;
+body {background: rgb(0,5,62);
+background: radial-gradient(circle, rgba(0,5,62,1) 0%, rgba(1,5,41,1) 76%);
 color: #FFD700;
 font-family: "Archivo Black", sans-serif;
 padding: 0;
@@ -52,7 +54,12 @@ transition: color 0.3s ease; /* Agregando transición al color */
 text-decoration: underline;
 color: #FFD700; /* Cambio de color al pasar el mouse */
 }
+
+.header-logo {
+max-width: 70px;
+}
 </style>
+
 <style>
   .background-image {
     width: 100%;
@@ -75,7 +82,7 @@ color: #FFD700; /* Cambio de color al pasar el mouse */
   .header-content {
     padding: 50px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent white background for readability */
     position: absolute;
     top: 50%;
     left: 20%;
@@ -86,10 +93,6 @@ color: #FFD700; /* Cambio de color al pasar el mouse */
 
   .header-content > p {
     font-size: 30px;
-  }
-  
-  .header-logo {
-    max-width: 70px;
   }
 
   .content {
@@ -116,13 +119,12 @@ color: #FFD700; /* Cambio de color al pasar el mouse */
 
 
 <header>
-  <a href=""><h1>
+  <a href="index.html"><h1>
     <img src="./logo-blanco-sintexto.png" alt="Logo" class="header-logo">
   OBLIQUA</h1></a>
   <nav>
-    <a class="header-link" href="#">Shopping</a>
     <a class="header-link" href="https://www.instagram.com/obliquamx">Contact Us</a>
-    <a class="header-link" href="cataloge.html">Shorts and Shirts Catalog</a>
+    <a class="header-link" href="catalog.html">Shorts and Shirts Catalog</a>
     <a class="header-link" href="about-us.html">About Us</a>
   </nav>
 </header>
@@ -202,8 +204,7 @@ color: #FFD700; /* Cambio de color al pasar el mouse */
         </a>
       </div>
       <div class="col-md-6 text-md-right">
-        <p style="font-size: 1em;">© 2024 Obliqua. Todos los derechos reservados</p>
-        <a href="https://policies.google.com/privacy" class="btn btn-link">Privacy Policy</a>
+        <p style="font-size: 1em;">© 2024 Obliqua. All rights reserved.</p>
       </div>
     </div>
   </div>
