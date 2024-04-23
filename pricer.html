@@ -12,8 +12,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Staatliches&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="./header/header.css">
-<script src="./header/spin.js" defer></script>
+<link rel="stylesheet" href="./css/header.css">
+<script src="./js/spin.js" defer></script>
 <style>
     .options {
         font-size: 24px;
@@ -43,7 +43,8 @@
     background-color: red;
   }
 </style>
-<link rel="stylesheet" href="./footer/footer.css">
+<link rel="stylesheet" href="./css/footer.css">
+<script src="js/pricer.js" defer></script>
 
 </head>
 <body>
@@ -98,21 +99,6 @@
           <br><br>
           <h1 class="text-white">The final price could be around <span class="text-primary bg-dark rounded">$<span id="ans"></span></span></h1>
   </section>
-
-    <script>
-        function calculate() {
-            let opLogo = document.getElementById('op-logo').checked
-            let opShorts = document.getElementById('op-shorts').checked
-            let opCols = document.getElementById('op-colors').selectedIndex
-            let opCount = +document.getElementById('op-count').value
-            let ans = 2000
-            if (opLogo) ans += 500
-            if (opShorts) ans += 1200
-            ans += opCols*300;
-            ans *= opCount
-            document.getElementById('ans').innerHTML = ans;
-        }
-    </script>
 
 
 <footer class="footer">
