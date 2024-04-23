@@ -1,0 +1,19 @@
+footer {
+  background-color: #151515;
+  color: #CFCFCF;
+  padding: 20px 0;
+  margin-top: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.footer-logo {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+html {
+  min-height: 100%;
+}

@@ -14,85 +14,32 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Staatliches&display=swap" rel="stylesheet">
 
-<style>
-body {background: rgb(0,5,62);
-background: radial-gradient(circle, rgba(0,5,62,1) 0%, rgba(1,5,41,1) 76%);
-color: #FFD700;
-font-family: "Archivo Black", sans-serif;
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
 
-header {
-background-color: #151515;
-color: #CFCFCF;
-padding: 5vh 5vw; /* Ajuste del padding con unidades de vista */
-text-align: center;
-}
-
-h1 {
-font-size: 3vw; /* Ajuste del tamaño de la fuente con unidades de vista */
-font-weight: bold;
-margin: 0;
-color: #FFD700; /* Cambio de color a amarillo */
-text-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.5); /* Ajuste de la sombra con unidades de vista */
-}
-
-nav {
-margin-top: 2vh; /* Ajuste del margen superior con unidades de vista */
-}
-
-.header-link {
-color: #CFCFCF;
-text-decoration: none;
-margin: 0 2vw; /* Ajuste del margen horizontal con unidades de vista */
-transition: color 0.3s ease; /* Agregando transición al color */
-}
-
-.header-link:hover {
-text-decoration: underline;
-color: #FFD700; /* Cambio de color al pasar el mouse */
-}
-
-.header-logo {
-max-width: 70px;
-}
-</style>
-
-
+<link rel="stylesheet" href="./header/header.css">
+<script src="./header/spin.js" defer></script>
 <style>
   .card {
     border: 0px solid #ffffff;
   }
 </style>
-
-
-<style>
-  footer {
-    background-color: #151515;
-    color: #CFCFCF;
-    padding: 20px 0;
-    margin-top: auto;
-  }
-  .footer-logo {
-    max-width: 50px;
-    margin-right: 10px;
-  }
-</style>
+<link rel="stylesheet" href="./footer/footerFull.css">
 
 </head>
   <body>
-<header>
-  <a href="index.html"><h1>
-    <img src="./logo-blanco-sintexto.png" alt="Logo" class="header-logo">
-  OBLIQUA</h1></a>
-  <nav>
-    <a class="header-link" href="https://www.instagram.com/obliquamx">Contact Us</a>
-    <a class="header-link" href="catalog.html">Shorts and Shirts Catalog</a>
-    <a class="header-link" href="about-us.html">About Us</a>
-  </nav>
-</header>
+    <header>
+      <div>
+    
+        <img id="spinner" style="top: -14px; position: relative;" src="./images/logo-blanco-sintexto.png" alt="Logo" class="header-logo">
+        <a href="index.html"><h1 style="display: inline-block;">
+          OBLIQUA</h1></a>
+        </div>
+      <nav>
+        <a class="header-link" href="https://www.instagram.com/obliquamx">Contact Us</a>
+        <a class="header-link" href="catalog.html">Shorts and Shirts Catalog</a>
+        <a class="header-link" href="pricer.html">Quotas</a>
+        <a class="header-link" href="about-us.html">About Us</a>
+      </nav>
+    </header>
 
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
@@ -102,7 +49,7 @@ max-width: 70px;
         <p>
           
         <a href="https://www.instagram.com/obliquamx" target="_blank" class="btn-secondary btn">
-          <img src="./instagram-logo.png" height="25px" alt="Instagram" class="footer-logo">
+          <img src="./images/instagram-logo.png" height="25px" alt="Instagram" class="footer-logo">
           Contact Us
         </a>
         </p>
@@ -116,7 +63,7 @@ max-width: 70px;
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card">
-            <img src="./catalog1.jpg" alt="" width="100%" height="auto">
+            <img src="./images/catalog1.jpg" alt="" width="100%" height="auto">
             <div class="card-body bg-dark">
               <p class="card-text text-white">Grampin stylish yellow shirt</p>
             </div>
@@ -125,7 +72,7 @@ max-width: 70px;
 
         <div class="col">
           <div class="card">
-            <img src="./catalog2.jpg" alt="" width="100%" height="auto">
+            <img src="./images/catalog2.jpg" alt="" width="100%" height="auto">
             <div class="card-body bg-dark">
               <p class="card-text text-white">Grampin glossy white variation shirt</p>
             </div>
@@ -134,7 +81,7 @@ max-width: 70px;
 
         <div class="col">
           <div class="card">
-            <img src="./catalog3.jpg" alt="" width="100%" height="auto">
+            <img src="./images/catalog3.jpg" alt="" width="100%" height="auto">
             <div class="card-body bg-dark">
               <p class="card-text text-white">Club Convention light geometric dotted shirt</p>
             </div>
@@ -146,7 +93,7 @@ max-width: 70px;
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card">
-            <img src="./catalog4.jpg" alt="" width="100%" height="auto">
+            <img src="./images/catalog4.jpg" alt="" width="100%" height="auto">
             <div class="card-body bg-dark">
               <p class="card-text text-white">Cauda aqua rhombi shirt+shorts</p>
             </div>
@@ -155,7 +102,7 @@ max-width: 70px;
 
         <div class="col">
           <div class="card">
-            <img src="./catalog5.jpg" alt="" width="100%" height="auto">
+            <img src="./images/catalog5.jpg" alt="" width="100%" height="auto">
             <div class="card-body bg-dark">
               <p class="card-text text-white">Club Convention dark geometric dotted shirt</p>
             </div>
@@ -164,7 +111,7 @@ max-width: 70px;
 
         <div class="col">
           <div class="card">
-            <img src="./catalog6.jpg" alt="" width="100%" height="auto">
+            <img src="./images/catalog6.jpg" alt="" width="100%" height="auto">
             <div class="card-body bg-dark">
               <p class="card-text text-white">Soccer team striped divided shirt</p>
             </div>
@@ -176,18 +123,22 @@ max-width: 70px;
     </div>
   </div>
 
-
+  <br><br>
+  <section class="text-center container">
+    <a href="pricer.html"><button style="font-size: 26px;" class="btn btn-primary">Get a rough idea of what your quota might be</button></a>
+    <br><br><br><br>
+  </section>
 
 <footer class="footer">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img src="./logo-blanco.png" alt="Logo" class="footer-logo">
+        <img src="./images/logo-blanco.png" alt="Logo" class="footer-logo">
         <a href="https://wa.me/526621465944" target="_blank">
-          <img src="https://assets-global.website-files.com/6321ffbc871a0f60deca5c75/633a8ee7a4808c0274baf37e_WA_W.png" height="25px" alt="WhatsApp" class="footer-logo">
+          <img src="./images/whatsapp-logo.png" height="25px" alt="WhatsApp" class="footer-logo">
         </a>
         <a href="https://www.instagram.com/obliquamx" target="_blank">
-          <img src="./instagram-logo.png" height="25px" alt="Instagram" class="footer-logo">
+          <img src="./images/instagram-logo.png" height="25px" alt="Instagram" class="footer-logo">
         </a>
       </div>
       <div class="col-md-6 text-md-right">
